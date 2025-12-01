@@ -42,7 +42,7 @@ pipeline {
         }
 
 
-
+/*
         stage('Terraform Apply') {
 
             steps {
@@ -57,7 +57,7 @@ pipeline {
 
         }
 
-/*
+*/
 
         stage('Terraform Destroy') {
 
@@ -72,7 +72,7 @@ pipeline {
             }
 
         }
-*/
+
     }
  
     post {
